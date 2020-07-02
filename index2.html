@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>An Endless Story</title>
+		<meta name="description" content="A CSS Grid powered menu with a box look" />
+		<meta name="keywords" content="menu, css grid, box, navigation, web development, animation" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo2.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="demo-2 loading">
+		<!-- <svg class="hidden">
+			<symbol id="icon-arrow" viewBox="0 0 24 24">
+				<title>arrow</title>
+				<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
+			</symbol>
+			<symbol id="icon-drop" viewBox="0 0 24 24">
+				<title>drop</title>
+				<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
+			</symbol>
+		</svg> -->
+		<main>
+			<div class="message">To see the menu, please view on a larger screen.</div>
+			<div class="content content--fixed">
+				<header class="codrops-header">
+					<div class="codrops-links">
+						<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/GlitchSlideshow/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+						<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=34419" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
+					</div>
+					<!-- <h1 class="codrops-header__title">Grid Menu</h1>
+					<span class="info">Inspired by <a href="https://www.youtube.com/watch?v=Z9Ku5ptjzKw">Ableton Live 10: What's New</a></span> -->
+				</header>
+				<!-- <nav class="demos">
+					<a class="demo" href="index.html">demo 1</a>
+					<a class="demo demo--current" href="index2.html">demo 2</a>
+					<a href="https://github.com/codrops/GridMenu" class="github">github</a>
+				</nav> -->
+				<button class="menu-trigger">Journey</button>
+			</div>
+			<div id="content-1" class="content content--switch content--switch-current">
+				<h2 class="content__title">Happy Seventh</h2>
+				<div class="content__subtitle">to our togetherness</div>
+				<div class="letter"> 
+					<p style="text-align: justify; font-style: italic; color: brown; font-weight: 600; font-family: cursive;">My dearest Shaina,</p>
+					<p style="text-align: justify; font-style: italic; color: brown; font-family: cursive; font-size: 15px;">Happy 7 years of our togetherness!</p>
+					<p style="text-align: justify; font-style: italic; color: brown; padding-bottom: 20px; font-family: cursive; font-size: 15px;">This unending journey of life has made me a human who has learned to love. Being able to live my life to the fullest by your side has been an overwhelming experience that I wish to continue till my last breath. I had never imagined my life to take a turn to an unexpected path of love and relationship. Unexpected experiences are the most memorable ones. Our relationship has grown from a seed to a sapling. The love, care, respect and trust have together strengthened the roots. Let us continue nurturing the sapling, for it to grow into a memorable tree of admiration.</p>
+					<p style="text-align: justify; font-style: italic; color: brown; font-family: cursive; font-size: 15px;">Always and forever,</p>
+					<p style="text-align: justify; font-style: italic; color: brown; font-weight: 600; font-family: cursive;">Utkarsha</p>
+				</div>
+			</div>
+			<div id="content-2" class="content content--switch">
+				<h2 class="content__title" style="color: white;">The Beginning</h2>
+				<div class="content__subtitle" style="color: white;">an unexpected start</div>
+				<div class="story">
+					<p style="text-align: justify; font-style: italic; color: white; font-size: 18px; font-family: cursive;">
+						Beginings are always beautiful. Who knew that the begining would be so unexpected too. We never know what turn our 
+						lives can take at a certain point. Be it a path of discomfort and darkness or an aesthetic path of love and 
+						pleasure, we are bound to follow it. The almighty had decided to direct me to a path of love, care and affection.
+						A teenager who never believed in the above mentioned theories, fell in the pit of love. Converging to the path of a girl
+						like you was beyond my dreams. I still try to find that force which made me approach you. For such a shy teenager, approaching
+						you was never a thought to ponder upon. Our story started with an uncertain fate. Both of us being shy, hesitant, sceptical
+						and reserved. The doors of comfort and trust were visible after few months. 
+					</p>
+				</div>
+			</div>
+			<div id="content-3" class="content content--switch">
+				<h2 class="content__title">The Hurdles</h2>
+				<div class="content__subtitle">the newbies</div>
+				<div class="story">
+					<p style="text-align: justify; font-style: italic; color: black; font-size: 18px; font-family: cursive;">
+						The first two years were tough. Restrictions, insecurities, privacy and limitations were the hurdles standing on our
+						path. Being the newbies and immature teenagers, we found ourselves stuck between the barriers surrounding us.
+						Mistakes were made from my side and I'm still apologetic for that. Few months of ignorance and unwanted distancing by
+						me created a void in between. Seeing you and exchanging words had become my habit I could barely resist. The void 
+						had the essence of love. All the actions have a strong reason behind which we fail to see. Distancing from you had 
+						the one which made me realise your importance. The immature decision proved to be the reason behind the present 
+						maturity. I still laugh remembering those days of innocence and silliness. We have grown from the very beginning.
+						We have faced diverse situations and held each other on every step of our unending stairs.   
+					</p>
+				</div>
+			</div>
+			<div id="content-4" class="content content--switch">
+				<h2 class="content__title">The Dilemma</h2>
+				<div class="content__subtitle">prioritizing desires</div>
+				<div class="story">
+					<p style="text-align: justify; font-style: italic; color: black; font-size: 18px; font-family: cursive;">
+						The first decisive year of my career had arrived and you were the solid pillar backing me up. Our love was 
+						at a growing phase and we could see a brighter future together. Unfortunately my first career dream remained a dream
+						for me. Despite all my efforts, I could not convert that dream into reality. Failure was the only word surrounding
+						my mind. There was a pillar which did not let my strength collapse. Yes, you were the strongest pillar I could depend upon for 
+						solace. The year which made me fall for you with all my heart. The love deepened and I was assured that I could do
+						the impossible with your presence in my life. The strength you helped me build has made me a man of rigidity and 
+						diligence. Today, if I have the courage to dream high, the credit goes to you, my love. Bringing me back from a 
+						dormant state and giving me reasons to live fearlessly, I owe you something that I can never pay you back.
+						Your selfless love and care is beyond any pleasures of life. The smile your face carries is beyond all the wonders
+						of the world. You are the only reason, I smile through all the hurdles in my life.     
+					</p>
+				</div>
+			</div>
+			<div id="content-5" class="content content--switch">
+				<h2 class="content__title">Parting Phase</h2>
+				<div class="content__subtitle">a hefty gap</div>
+				<div class="story">
+					<p style="text-align: justify; font-style: italic; color: black; font-size: 18px; font-family: cursive;">
+						For the first time in 3 years, I understood what distancing from loved ones feels like. Missing someone was never
+						a feeling I experienced. One complete year was a testing phase of our so called long distance relationship. Many
+						unwanted thoughts crossed my mind. We fought, we cried, we made mistakes and we hurt each other, but the only
+						constant was the 'love'. Loving each other was never kept aside. After all habits are not meant to be forgotten.
+						A phase in relationship that often escalates negativity and results in a harsh ending. A year of mixture of 
+						emotions and misunderstandings often caught us in a locked room of uncertainities. The purity of love always
+						finds a solution to overcome the most difficult situations and that was exactly what we experienced. Succeeding in
+						the test of bond, we emerged stronger than ever. It was our love that came on top of all the disparities.          
+					</p>
+				</div>
+			</div>
+			<div id="content-6" class="content content--switch">
+				<h2 class="content__title">Sparkling Years</h2>
+				<div class="content__subtitle">love saw no limits</div>
+				<div class="story">
+					<p style="text-align: justify; font-style: italic; color: black; font-size: 18px; font-family: cursive;">
+						Last 3 years have been the most important phase of our relationship. From one year of missing each other, to 
+						living in same city for next 3 years, the almighty rewarded us for our pure love for each other. Living the best 
+						time of my life in thse 3 years, I have loved to even more. We have taken mature decisions, we have cared for each
+						other, we have fought, we have cried, but most importantly we have loved each other. The jokes we have cracked, the 
+						places we have been together, the laugh we have shared and the mistakes we have committed, all of these have contributes
+						to our growth. The tree has been growing towards prosperity. We have lived to the fullest and expressed ourselves
+						the most. I promise you that I'll fulfil every dream we have seen together. I promise you that I'll live up to the 
+						expectations you have from me. I promise you that I will keep loving you the way I have. I promise you that I'll 
+						be by your side whenever you will need me. I promise you that I'll give you all the happiness you deserve. 
+						<br><br>
+						Cheers to 7 years of our relationship with a hope to continue till our last breath.
+						<br><br>
+						I love you sweetheart! 
+					</p>
+				</div>
+			</div>
+			<nav class="grim">
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--1"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--2"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--3"></div>
+					<div class="grim__item-content">
+						<div class="grim__item-inner">
+							<button class="menu-trigger menu-trigger--close">Close</button>
+						</div>
+					</div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--4"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--5"></div>
+					<a href="#content-1" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">Home</h3>
+						</div>
+					</a>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--6"></div>
+					<div class="grim__item-img grim__item-img--1" style="background-image: url(img/bg1.jpg);"></div>
+					<a href="#content-2" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">The Beginning</h3>
+							<span class="grim__item-desc">an unexpected start</span>
+						</div>
+					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--6"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--7"></div>
+					<div class="grim__item-img grim__item-img--2" style="background-image: url(img/bg2.jpg);"></div>
+					<a href="#content-3" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">The hurdles</h3>
+							<span class="grim__item-desc">the newbies</span>
+						</div>
+					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--7"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--8"></div>
+					<div class="grim__item-img grim__item-img--3" style="background-image: url(img/bg3.jpg);"></div>
+					<a href="#content-4" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">The Dilemma</h3>
+							<span class="grim__item-desc">prioritizing desires</span>
+						</div>
+					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--8"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--9"></div>
+					<div class="grim__item-img grim__item-img--4" style="background-image: url(img/bg4.jpg);"></div>
+					<a href="#content-5" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">Parting phase</h3>
+							<span class="grim__item-desc">a hefty gap</span>
+						</div>
+					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--9"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--10"></div>
+					<div class="grim__item-img grim__item-img--5" style="background-image: url(img/bg5.jpg);"></div>
+					<a href="#content-6" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">Sparkling Years</h3>
+							<span class="grim__item-desc">love saw no limits</span>
+						</div>
+					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--10"></div>
+				</div>
+			</nav>
+		</main>
+		<script src="js/demo.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/menu2.js"></script>
+	</body>
+</html>
